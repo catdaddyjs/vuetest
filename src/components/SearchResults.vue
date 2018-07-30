@@ -1,6 +1,6 @@
 <template>
   <div id="searchResults">
-    <div v-for="result in searchResults">
+    <div v-for="result in searchResults" :key="result.title">
       <result :result="result"></result>
     </div>
   </div>

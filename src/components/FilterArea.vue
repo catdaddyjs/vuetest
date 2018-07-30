@@ -1,6 +1,6 @@
 <template>
   <div id="filter">
-    <h2></h2>
+    <h2>Filter</h2>
     <md-field class="medium">
       <label>Filter Results</label>
       <md-input v-model="query" v-on:change="search"></md-input>
